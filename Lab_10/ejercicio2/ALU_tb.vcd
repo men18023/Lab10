@@ -1,0 +1,639 @@
+$date
+	Sat Nov 07 20:24:45 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 4 ! S [3:0] $end
+$var wire 1 " Exit $end
+$var wire 1 # Carry $end
+$var reg 3 $ Com [2:0] $end
+$var reg 4 % In [3:0] $end
+$var reg 1 & clk $end
+$var reg 1 ' enable $end
+$var reg 1 ( enable1 $end
+$var reg 1 ) enable2 $end
+$var reg 1 * reset $end
+$scope module u1 $end
+$var wire 3 + Com [2:0] $end
+$var wire 4 , In [3:0] $end
+$var wire 1 ' clk $end
+$var wire 1 ( enable $end
+$var wire 1 & enable1 $end
+$var wire 1 * enable2 $end
+$var wire 1 ) reset $end
+$var wire 4 - b [3:0] $end
+$var wire 4 . alu_out [3:0] $end
+$var wire 4 / a [3:0] $end
+$var wire 4 0 S [3:0] $end
+$var wire 1 " Exit $end
+$var wire 1 # Carry $end
+$scope module u1 $end
+$var wire 4 1 In [3:0] $end
+$var wire 1 2 enable $end
+$var wire 4 3 Ex [3:0] $end
+$upscope $end
+$scope module u2 $end
+$var wire 1 ' clk $end
+$var wire 1 ( enable $end
+$var wire 1 ) reset $end
+$var wire 4 4 D [3:0] $end
+$var reg 4 5 Q [3:0] $end
+$upscope $end
+$scope module u3 $end
+$var wire 4 6 In [3:0] $end
+$var wire 1 7 enable $end
+$var wire 4 8 Ex [3:0] $end
+$upscope $end
+$scope module u4 $end
+$var wire 4 9 A [3:0] $end
+$var wire 4 : B [3:0] $end
+$var wire 3 ; Com [2:0] $end
+$var reg 1 # Carry $end
+$var reg 1 " Exit $end
+$var reg 4 < Res [3:0] $end
+$var reg 5 = k [4:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+x7
+b0x 6
+bx 5
+bx 4
+bx 3
+x2
+b0x 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+bx +
+x*
+x)
+x(
+x'
+x&
+bx %
+bx $
+x#
+x"
+bx !
+$end
+#1
+bz -
+bz 3
+bz :
+0#
+b0xxxx =
+02
+b0 $
+b0 +
+b0 ;
+0)
+0(
+b0 6
+0*
+b0 %
+b0 ,
+0'
+b0 1
+0&
+#2
+b1 1
+1&
+#3
+b0 1
+0&
+b1 6
+1*
+#4
+b1 1
+1&
+#5
+b0 1
+0&
+b0 6
+0*
+#6
+b1 1
+1&
+#7
+b0xxxx =
+b0 -
+b0 3
+b0 :
+12
+b0 1
+0&
+1(
+b1 %
+b1 ,
+#8
+b0xxxx =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#9
+b0 /
+b0 5
+b0 9
+bz !
+bz 0
+bz 8
+07
+b0 -
+b0 3
+b0 :
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 1
+0&
+b10 $
+b10 +
+b10 ;
+1)
+1'
+#10
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#11
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#12
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#13
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#14
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#15
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#16
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#17
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#18
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#19
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#20
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#21
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#22
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#23
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#24
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#25
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#26
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#27
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#28
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#29
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#30
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#31
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#32
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#33
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#34
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#35
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#36
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#37
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#38
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
+#39
+bz !
+bz 0
+bz 8
+07
+b0 .
+b0 4
+b0 <
+1"
+b0 =
+b0 -
+b0 3
+b0 :
+b0 1
+0&
+#40
+b0 !
+b0 0
+b0 8
+17
+b1 .
+b1 4
+b1 <
+0"
+b1 =
+b1 -
+b1 3
+b1 :
+b1 1
+1&
